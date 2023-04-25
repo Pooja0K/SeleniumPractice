@@ -1,0 +1,4 @@
+abc line 1
+123 456
+abc end line
+read char or repeated char

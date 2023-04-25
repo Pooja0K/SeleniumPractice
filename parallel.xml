@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="5">
+    <test name="selenium.testcom" verbose="2" preserve-order="true">
+        <classes>
+            <class name="selenium.testcom.AlertDemoTest"/>
+            <class name="selenium.testcom.AutoCompleteTest"/>
+        </classes>
+    </test>
+</suite>

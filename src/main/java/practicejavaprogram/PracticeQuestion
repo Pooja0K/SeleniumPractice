@@ -1,0 +1,245 @@
+1.	Write a program that finds duplicate characters in strings
+i/p  : electrical
+o/p : elc
+
+2.	Write a program that find max number from array
+i/p  : {5,1,2,7,6,3,4,9}
+o/p : 9
+
+3.	Write a program to find the second max from an array
+i/p  : { 15, 20, 2, 7, 6, 3, 4, 9 };
+o/p : 15
+
+4.	Write a program that finds maximum repeating character from the string
+i/p  : selenium
+o/p : e
+
+5.	Write code to check if a String is a palindrome or not?
+i/p  : mamma,  o/p : not palindrome
+i/p  : nitin,  o/p : palindrome
+
+6.	Write code to check if a number is palindrome or not?
+i/p  : 12345,  o/p : not palindrome
+i/p  : 12321,  o/p : palindrome
+
+
+7.	Write a function to find out longest palindrome in a given string
+i/p  : { "nitin", "jadeja", "mama", "madamimadam" };
+o/p : madamimadam
+
+
+8.	Find the first non repeated character of a given String
+i/p  : “jadeja”
+o/p : d
+
+9.	How to count the occurrence of a given character in a String
+i/p  : electrical  ch : ‘e’
+o/p : 2
+
+10.	How to check if two String are Anagram
+i/p: keep i/p: peek  o/p: anagram
+i/p: hat   i/p: cat     o/p: not an anagram
+
+
+11.	How to find all pairs in an array of integers whose sum is equal to the given number
+i/p  : {5,1,2,7,6,3,4,9} , sum : 6
+o/p : {5,1}, {2,4}
+
+
+12.	WAP to print a single occurrence element from the array in Java?
+i/p  : {5,8,1,2,4,3,2,1}
+o/p : {5,8,4,3}
+
+
+13.	How to find the largest and smallest number in an array
+i/p  : {5,1,2,7,6,3,4,9}
+o/p : small: 1 & highest: 9
+
+
+14.	How to calculate the number of vowels and consonants in a string
+i/p : Epam Systems
+o/p: vowels: 3, consonants : 3
+
+
+15.	Write a program on array which perform left shift element by 1 position
+i/p  : {5,1,2,7,6,3,4,9}
+o/p : {1,2,7,6,3,4,9,5}
+
+
+16.	Write a program which find the one missing number from the 1 to 10
+i/p  : {5,1,2,7,6,3,4,8,10}
+o/p : 9
+
+
+17.	Write a program that sort array without using any predefined methods
+i/p  : {5,1,2,7,6,3,4,9}
+o/p : {1,2,3,4,5,6,7,9}
+
+
+
+18.	Write a program that swaps two strings without using a third variable.
+i/p1  : selenium , i/p2 : automation
+
+
+19.	Compute the first five Fibonacci numbers.
+o/p : 0, 1, 1, 2, 3
+
+
+20.	How do you reverse words in a given sentence without using any predefined method?
+i/p  : oriontech
+o/p : hcetnoiro
+
+
+21.	Write a program to check if the two arrays are identical
+i/p1  : {5,1,3,9}, i/p2: {5,1,3,9}
+o/p : true
+
+
+22.	Java program to check if the given number is Prime?
+i/p  : 97
+o/p : true
+
+
+23.	How to remove Whitespaces from String without using replace or replaceAll.
+               i/p  : I love my india
+o/p : ilovemyindia
+
+
+24.	Write a program that converts words with the first letter capitalized.
+i/p  : i love my india
+o/p : I Love My India
+
+27.	Write a program that prints "java" when three consecutive numbers appear
+i/p  : {12,13,15,14,17,18,19,20}
+o/p : java
+
+28.	Write a program which separate numbers and letters from string
+	i/p  : h2n9fpn2qk2
+	o/p : hnfpnqk2922
+
+
+29.	Write a program which do sum of numbers present in the string
+i/p  : h2n9fpn23qk2
+o/p : 15
+
+
+30.	 Create a program that sorts number arrays using the comparable and comparator interface.
+
+
+31.	Write a program to find if a given number is present in the arrayList or not.
+i/p : {1,6,2,9,3,0,2,4}
+number to be check : 5
+number to be check : 9
+
+
+32.	Find out if a given number occurs more than once in an arrayList.
+i/p  : {1,6,2,9,3,10,62,49,3,13,2,12,93,3}, number to check : 3
+o/p : multiple occurrences in Array List.
+
+
+33.	Write a program to remove duplicates from ArrayLists (without using set).
+i/p : {1,6,2,1,3,0,6,4}
+o/o: {1,6,2,3,0,4}
+
+
+34.	Make a program that removes duplicates from an ArrayList using Sets, but maintains the order.
+i/p : {1,6,2,1,3,0,6,4}
+o/o: {1,6,2,3,0,4}
+
+
+35.	Make a program that removes the longest string from a given set of strings.
+i/p :  {“hulk”, “black widow”, “ironman”, “thor”, “captain america”, “loki”}
+o/p : {“hulk”, “black widow”, “ironman”, “thor”, “loki”}
+
+
+
+36.	Find the second largest number from Given Array.
+i/p  : {15,16,52,89,93,20,87,42}
+o/p : 87
+Hint: Convert Array -> TreeSet -> ArrayList
+
+
+37.	Return ArrayList of first 10 prime numbers in the range [100,500].
+
+
+38.	Return all negative numbers (remove duplicates if any and maintain insertion order) from the given array.
+i/p  : 10, -11, 13, -11, 14, -19, -99, -11, -19, 33
+o/p : [-11, -19, -99]
+Hint: parameter - Array, return type - LinkedHashSet.
+
+
+39.	Write a program to return Union of two ArrayList without duplicates.
+i/p1: {‘A’, ‘M’, ‘B’, ‘K’, ‘A’}
+i/p2: {‘A’, ‘H’, ‘T’, ‘K’, ‘S’}
+o/p : {‘A’, ‘M’, ‘B’, ‘K’, ‘H’, ‘T’, ‘S’}
+
+
+40.	Find a missing number in a range [1-10] from given ArrayList.
+i/p  : {1,6,2,5,7,6,3,10}
+o/p : {4,8,9}
+Hint: Method Parameter should be ArrayList, return type should be ArrayList.
+
+
+41.	Write a program that removes all zeros from an ArrayList.
+	i/p  : {0,22,35,89,0,16,64,0,82,0,12,0,}
+o/p : {22,35,89,16,64,82,12}
+
+
+42.	Write a program that removes all non prime numbers from the given Set.
+i/p : {23, 4, 7, 45, 41, 43, 27, 12, 59, 89, 67, 71, 73, 34, 83, 90, 96}
+o/p: {23,7,41,43,59,89,67,71,73,83}
+
+
+43.	Write a program to traverse (or iterate) ArrayList using enhanced for loop and iterator.
+
+
+44.	Write a program to convert Array to List.
+
+
+45.	Write a program to traverse (or iterate) HashSet.
+
+46. Create a class called "Student" with below properties:
+First Name, Last Name, Age, rollNumber
+
+Initialise 4 students, keep those in a list and sort that list by ascending order of First Name
+
+46..
+String s1 [] = cars , dues, scar , used , paired , ones , grab , brag
+return groups with anagrams
+
+cars -> scar
+dues -> used
+grab -> brag
+
+46.	String s = "EPAM";
+o/p:
+EPAM
+EPA
+EP
+E
+
+47.
+ATM pin
+String str = "9543";
+
+if digits are in ascending order : Valid Pin
+if digits are in descending order : Valid Pin
+Else: Invalid Pin
+
+Examples
+1. s= 9543 -> Valid Pin
+2. s= 1234 -> Valid Pin
+
+
+
+48.
+find number of lines , number of words n no of characters from text file C://user/MyFolder/test.text
+       abc line 1
+      123 456
+      abc end line
+
+
+49. List of words : meet","meet-me","implement","mango"
+find how many times "me" come in that list and also print words does not have me
+output : 4 , mango
+
