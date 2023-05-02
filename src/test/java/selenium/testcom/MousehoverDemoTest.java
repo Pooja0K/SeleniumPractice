@@ -16,8 +16,8 @@ public class MousehoverDemoTest extends BaseUIClass {
         Assert.assertEquals(actualUrl, expectedUrl, "Url does not match");
 
         WebElement platformLink = driver.findElement(By.xpath("//a[text()='Platform']"));
-        WebElement peopleMgmtLink = driver.findElement(By.xpath("//div[@class='secondary-menu']//*[contains(text(),'People M')]"));
-        WebElement hrLink = driver.findElement(By.xpath("//*[@href='features/hr-administration']"));
+        WebElement peopleMgmtLink = driver.findElement(By.xpath("//div[@class='secondary-menu']/ul/li[contains(text(),'People M')]"));
+        WebElement hrLink = driver.findElement(By.xpath("//*[@href='/en/features/hr-administration/']"));
 
         Actions action = new Actions(driver);
         action.moveToElement(platformLink).moveToElement(peopleMgmtLink).moveToElement(hrLink).click().build().perform();

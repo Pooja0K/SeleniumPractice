@@ -13,6 +13,7 @@ public class DropdownDemoTest extends BaseUIClass {
     public void handleDropdown() throws InterruptedException {
         driver.get("https://www.facebook.com");
         driver.findElement(By.xpath("//a[text()='Create new account']")).click();
+        System.out.println(driver.getTitle());
         Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Facebook – log in or sign up"));
         Thread.sleep(2000);
 
