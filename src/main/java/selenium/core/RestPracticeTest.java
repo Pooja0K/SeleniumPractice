@@ -3,7 +3,7 @@ import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
-public class RestPracticeTest {
+public class  RestPracticeTest {
     public static void main(String[] args) {
 
         RestAssured.baseURI="https://rahulshettyacademy.com";
